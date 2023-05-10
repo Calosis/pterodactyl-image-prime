@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   push:
-    name: "pterodactyl-images:azul_${{ matrix.tag }}_prime"
+    name: "pterodactyl-image-prime:azul_${{ matrix.tag }}_prime"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
