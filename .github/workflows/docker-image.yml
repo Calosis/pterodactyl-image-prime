@@ -55,4 +55,4 @@ jobs:
           platforms: linux/amd64, linux/arm64
           push: true
           tags: |
-            ghcr.io/Calosis/pterodactyl-image-prime:azul_${{ matrix.tag }}_prime
+            ghcr.io/calosis/pterodactyl-image-prime:azul_${{ matrix.tag }}_prime
