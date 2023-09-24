@@ -11,7 +11,8 @@
     "features": null,
     "docker_images": {
         "ghcr.io\/calosis\/pterodactyl-image-prime:azul_8_prime": "ghcr.io\/calosis\/pterodactyl-image-prime:azul_8_prime",
-        "ghcr.io\/calosis\/pterodactyl-image-prime:azul_11_prime": "ghcr.io\/calosis\/pterodactyl-image-prime:azul_11_prime"
+        "ghcr.io\/calosis\/pterodactyl-image-prime:azul_11_prime": "ghcr.io\/calosis\/pterodactyl-image-prime:azul_11_prime",
+        "ghcr.io\/calosis\/pterodactyl-image-prime:azul_17_prime": "ghcr.io\/calosis\/pterodactyl-image-prime:azul_17_prime"
     },
     "file_denylist": [],
     "startup": "java -Xms128M -Xmx{{SERVER_MEMORY}}M -jar {{JAR_FILE}}",
